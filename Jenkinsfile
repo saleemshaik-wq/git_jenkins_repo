@@ -6,8 +6,9 @@ pipeline {
                 sh "sudo apt update -y"
                 sh "sudo apt install maven -y"
             }
+        }
              stage('Checkout') {
-            steps {
+              steps {
                 sh "rm -rf git_jenkins_repo"
                 sh "git clone https://github.com/saleemshaik-wq/git_jenkins_repo"
             }
