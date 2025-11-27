@@ -1,12 +1,6 @@
 pipeline {
     agent { label 'Java' }
     stages {
-        stage('InstallMaven') {
-            steps {
-                sh "sudo apt update -y"
-                sh "sudo apt install maven -y"
-            }
-        }
              stage('Checkout') {
               steps {
                 sh "rm -rf git_jenkins_repo"
