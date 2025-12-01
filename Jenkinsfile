@@ -19,7 +19,7 @@ pipeline {
                     )
                     /*
                     sshUserPrivateKey(
-                        credentialsId: '3f6a9c95-2ecd-4bbe-a817-1ab975fb98d3',
+                        credentialsId: '6de0e10a-7954-47f8-9c09-a6bf341a387f',
                         keyFileVariable: 'Shaik_SSH_KEY',
                         usernameVariable: 'Shaik_SSH_USER'
                     )
